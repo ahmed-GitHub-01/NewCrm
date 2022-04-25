@@ -1,0 +1,1 @@
+/c cd.. && cd.. && cd.. && cd.. && cd.. && z: && cd v\tools && emulator -list-avds && emulator -avd fdf

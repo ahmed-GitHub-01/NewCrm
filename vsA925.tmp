@@ -1,0 +1,381 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HOL-
+</name>
+</assembly>
+<members>
+<member name="T:HOL_.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.BB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.customers">
+<summary>
+  Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.download1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.profilereport">
+<summary>
+  Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.FAX_TO_WORKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MHAMDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.CHECK_SNDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.POSTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.TAKALEFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.VISITORDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.RECPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.SND_KEDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.SND_SRFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MANDOB_ISTEMARADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MR_ACCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.PAYMENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.CLASSFICATIONSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.EKHLADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.GBREADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.UPLOAD_PROCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.INVOICEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.STATMENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.PAY1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.KSHF_OHDADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.TSFEA_KSHFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.ROOLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.FAX_TO_WORKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MHAMRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.CHECK_SNDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.POSTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.TAKALEFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.VISITORRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.RECPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.SND_KEDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.SND_SRFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MANDOB_ISTEMARARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MR_ACCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.PAYMENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.CLASSFICATIONSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.EKHLARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.GBREARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.UPLOAD_PROCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.INVOICERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.STATMENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.PAY1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.KSHF_OHDARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.TSFEA_KSHFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.ROOLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.FAX_TO_WORKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MHAMRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.CHECK_SNDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.POSTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.TAKALEFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.VISITORRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.RECPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.SND_KEDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.SND_SRFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MANDOB_ISTEMARARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.MR_ACCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.PAYMENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.CLASSFICATIONSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.EKHLARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.GBREARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.UPLOAD_PROCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.INVOICERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.STATMENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.PAY1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.KSHF_OHDARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.TSFEA_KSHFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HOL_.DataSet2.ROOLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>
