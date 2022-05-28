@@ -53,7 +53,7 @@ Public Class CLS_ENTER_USER
                          dbo.ROULE.TAWKELAT AS [الاطلاع على التوكيلات],dbo.ROULE.CAR_BALANCE AS  [كشف حساب السيارات],dbo.ROULE.COLLECTIONBYYEARFORMONTH AS [تقرير التحصيل بالسنوات والاشهر],dbo.ROULE.UNCOLLECTIBLE AS [الغير قابل للتحصيل],
                          dbo.ROULE.OhdaReviewSec AS [استلام العهدة من السكرتارية], dbo.ROULE.REPORT_BRANCH AS [تقارير الافرع],dbo.ROULE.TOOAN_DATE AS [تعديل تاريخ الطعن],dbo.ROULE.ACC_COLLECTION AS [التحصيل من الموكلين],dbo.ROULE.KSHF_TOAN AS [كشف الطعون],
                          dbo.ROULE.IMP_CLASSIFICATION AS [اضافة تصنيفات للافادات فى التنفيذ],dbo.ROULE.RECIVIED_FILE_FROM_CLIENT AS [استلام الكشوف المرسلة من الموكلين],dbo.ROULE.ADD_PROSECUTOR AS [اضافة وتعديل المدعى القانونى],dbo.ROULE.MDL_REPORT AS [تقارير المتداول],
-                         dbo.ROULE.GETMACADDRESS AS [MAC Address], dbo.ROULE.IMPLEMENT_FILE AS [مراجعة التنفيذ الجديد],dbo.ROULE.TRANSPORT_HOKM AS [صلاحية ترحيل الاحكام]
+                         dbo.ROULE.GETMACADDRESS AS [MAC Address], dbo.ROULE.IMPLEMENT_FILE AS [مراجعة التنفيذ الجديد],dbo.ROULE.TRANSPORT_HOKM AS [صلاحية ترحيل الاحكام], dbo.ROULE.EXPORT_TO_COMPANY AS [الصادر والوارد]
                          FROM dbo.EMPLOYEE INNER JOIN
                          dbo.ROULE ON dbo.EMPLOYEE.CODE = dbo.ROULE.CODE_EMP")
         Return DT
@@ -81,7 +81,7 @@ Public Class CLS_ENTER_USER
                          dbo.ROULE.EDIT_COMMETIONS AS [تعديل العمولة],dbo.ROULE.TAWKELAT AS [الاطلاع على التوكيلات],dbo.ROULE.CAR_BALANCE AS  [كشف حساب السيارات],dbo.ROULE.COLLECTIONBYYEARFORMONTH AS [تقرير التحصيل بالسنوات والاشهر],dbo.ROULE.UNCOLLECTIBLE AS [الغير قابل للتحصيل],
                          dbo.ROULE.OhdaReviewSec AS [استلام العهدة من السكرتارية],dbo.ROULE.REPORT_BRANCH AS [تقارير الافرع],dbo.ROULE.TOOAN_DATE AS [تعديل تاريخ الطعن],dbo.ROULE.ACC_COLLECTION AS [التحصيل من الموكلين],dbo.ROULE.KSHF_TOAN AS [كشف الطعون],
                          dbo.ROULE.IMP_CLASSIFICATION AS [اضافة تصنيفات للافادات فى التنفيذ],dbo.ROULE.RECIVIED_FILE_FROM_CLIENT AS [استلام الكشوف المرسلة من الموكلين],dbo.ROULE.ADD_PROSECUTOR AS [اضافة وتعديل المدعى القانونى],dbo.ROULE.MDL_REPORT AS [تقارير المتداول],
-                         dbo.ROULE.GETMACADDRESS AS [MAC Address], dbo.ROULE.IMPLEMENT_FILE AS [مراجعة التنفيذ الجديد],dbo.ROULE.TRANSPORT_HOKM AS [صلاحية ترحيل الاحكام]
+                         dbo.ROULE.GETMACADDRESS AS [MAC Address], dbo.ROULE.IMPLEMENT_FILE AS [مراجعة التنفيذ الجديد],dbo.ROULE.TRANSPORT_HOKM AS [صلاحية ترحيل الاحكام], dbo.ROULE.EXPORT_TO_COMPANY AS [الصادر والوارد]
                          FROM dbo.EMPLOYEE INNER JOIN
                          dbo.ROULE ON dbo.EMPLOYEE.CODE = dbo.ROULE.CODE_EMP
                          WHERE (dbo.EMPLOYEE.NAME LIKE '%" & NAME_ & "%')")
@@ -110,7 +110,7 @@ Public Class CLS_ENTER_USER
                            REPORT_BRANCH As Integer, TOOAN_DATE As Integer, ACC_COLLECTION As Integer, KSHF_TOAN As Integer,
                            IMP_CLASSIFICATION As Integer, RECIVIED_FILE_FROM_CLIENT As Integer, ADD_PROSECUTOR As Integer,
                            MDL_REPORT As Integer, GETMACADDRESS As Integer, IMPLEMENT_FILE As Integer,
-                           TRANSPORT_HOKM As Integer)
+                           TRANSPORT_HOKM As Integer, EXPORT_TO_COMPANY As Integer)
         Dim CON As New CLS_CON_TELE
         CON.EXECUTE_TXT("UPDATE [dbo].[ROULE]
                         SET [ROULE]                       = " & ROULE & "
@@ -186,6 +186,7 @@ Public Class CLS_ENTER_USER
                             ,[GETMACADDRESS]               = " & GETMACADDRESS & "
                             ,[IMPLEMENT_FILE]              = " & IMPLEMENT_FILE & "
                             ,[TRANSPORT_HOKM]              =  " & TRANSPORT_HOKM & "
+                            ,[EXPORT_TO_COMPANY]           = " & EXPORT_TO_COMPANY & "
                         WHERE CODE_EMP                     = " & CODE_EMP & "")
     End Sub
     Public Function TEST_POWER(NAME_ As String)
@@ -267,7 +268,8 @@ dbo.ROULE.ADD_PROSECUTOR AS [اضافة وتعديل المدعى القانون
 dbo.ROULE.MDL_REPORT AS [تقارير المتداول],
 dbo.ROULE.GETMACADDRESS AS [MAC Address],
 dbo.ROULE.IMPLEMENT_FILE AS [مراجعة التنفيذ الجديد],
-dbo.ROULE.TRANSPORT_HOKM AS [صلاحية ترحيل الاحكام]
+dbo.ROULE.TRANSPORT_HOKM AS [صلاحية ترحيل الاحكام],
+dbo.ROULE.EXPORT_TO_COMPANY AS [الصادر والوارد]
 FROM  dbo.EMPLOYEE INNER JOIN
 dbo.ROULE ON dbo.EMPLOYEE.CODE = dbo.ROULE.CODE_EMP
 WHERE (dbo.ROULE.CODE_EMP='" & NAME_ & "')")
