@@ -29,6 +29,21 @@ Public Class CLS_ENTER_USER
         DT = CON.SELECT_TXT("SELECT PASS, CODE, RESPON, NAME, MACADDRESS, VALID_MAC, VALID_USER FROM  dbo.EMPLOYEE WHERE  (PASS = '" & PASS & "') AND (CODE = " & CODE_ & ")")
         Return DT
     End Function
+    Public Function LOGIN(USERNAME As Integer, PASSWORD As String)
+        Dim CON As New CLS_CON_TELE
+        Dim DT As New DataTable
+        DT.Clear()
+        DT = CON.SELECT_TXT("SELECT PASS, CODE, RESPON, NAME, MACADDRESS, VALID_MAC, VALID_USER 
+                             FROM  dbo.EMPLOYEE WHERE  (PASS = '" & PASSWORD & "') AND (CODE = " & USERNAME & ")")
+        Return DT
+    End Function
+    Public Function NAME_EMPLOYE(USER As Integer)
+        Dim CON As New CLS_CON_TELE
+        Dim DT As New DataTable
+        DT.Clear()
+        DT = CON.SELECT_TXT("SELECT NAME FROM  dbo.EMPLOYEE WHERE (CODE = " & USER & ")")
+        Return DT
+    End Function
     Public Function GET_NAME()
         Dim CON As New CLS_CON_TELE
         Dim DT As New DataTable

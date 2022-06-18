@@ -32,7 +32,17 @@ HOL-
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:HOL_.My.Resources.Resources.GettyImages_512803768_590a58a05f9b586470463c04">
+<member name="P:HOL_.My.Resources.Resources.fullStar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.halfStar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.Picture2__2__removebg_preview">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -43,6 +53,11 @@ HOL-
 </summary>
 </member>
 <member name="P:HOL_.My.Resources.Resources.PinClipart_com_car_wash_clip_art_5401646">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HOL_.My.Resources.Resources.rating">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
