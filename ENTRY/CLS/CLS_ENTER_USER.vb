@@ -26,7 +26,7 @@ Public Class CLS_ENTER_USER
         Dim CON As New CLS_CON_TELE
         Dim DT As New DataTable
         DT.Clear()
-        DT = CON.SELECT_TXT("SELECT PASS, CODE, RESPON, NAME, MACADDRESS, VALID_MAC, VALID_USER FROM  dbo.EMPLOYEE WHERE  (PASS = '" & PASS & "') AND (CODE = " & CODE_ & ")")
+        DT = CON.SELECT_TXT("SELECT PASS, CODE, RESPON, NAME, MACADDRESS, VALID_MAC, VALID_USER FROM  dbo.EMPLOYEE WHERE (PASS = '" & PASS & "') AND (CODE = " & CODE_ & ")")
         Return DT
     End Function
     Public Function LOGIN(USERNAME As Integer, PASSWORD As String)
